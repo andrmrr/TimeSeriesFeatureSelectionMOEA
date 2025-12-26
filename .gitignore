@@ -3,6 +3,7 @@ lightning_logs/
 data/*.parquet
 *.pyc
 logs/
+docs/
 *.aux
 *.bbl
 *.bcf
