@@ -1,4 +1,3 @@
 # Time Series Feature Selection
 
-## Project Description
-Design a feature selection approach for time series data that accounts for temporal dependencies. 
+This project is a **replication of a study** of multi-objective evolutionary algorithm for feature selection in time series data (https://arxiv.org/abs/2312.17517). The data used was obtained from *HuggingFace* and included temporal datasets for electricity and weather. The data was preprocessed and normalized before entering the model training pipeline. The algorithm used simultaneously the model (LSTM) parameters and the choice for features for the best predictive performance (with RMSE as the objective function). The project was done in **Python**, the feature selection algorithm NSGA-II algorithm was taken from the **Platypus** library and **PyTorch** was used for model training. Detailed description of the work can be found in the *FinalReport.pdf* file.
