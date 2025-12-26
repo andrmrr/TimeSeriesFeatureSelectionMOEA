@@ -1,0 +1,16 @@
+outputs/
+lightning_logs/
+data/*.parquet
+*.pyc
+logs/
+*.aux
+*.bbl
+*.bcf
+*.fdb_latexmk
+*.log
+*.fls
+*.nlo
+*.run.xml
+*.out
+*.synctex.gz
+.DS_Store
